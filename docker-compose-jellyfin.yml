@@ -1,0 +1,13 @@
+version: '3'
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    ports:
+      - '8096:8096/tcp'
+      - '8920:8920/tcp'
+    volumes:
+      - './jellyfin/config:/config'
+      - './jellyfin/cache:/cache'
+      - '/your/media/library:/media:ro' # Replace with your media path
+    restart: unless-stopped
