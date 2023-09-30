@@ -1,0 +1,13 @@
+version: '3'
+services:
+  retropie:
+    image: retrorangepi/rpi-emu:latest
+    container_name: retropie
+    devices:
+      - '/dev/gpiomem:/dev/gpiomem'
+      - '/dev/vchiq:/dev/vchiq'
+    ports:
+      - '8080:8080/tcp'
+    volumes:
+      - '/your/roms:/roms'
+    restart: unless-stopped
