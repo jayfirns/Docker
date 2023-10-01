@@ -9,5 +9,5 @@ services:
     volumes:
       - './jellyfin/config:/config'
       - './jellyfin/cache:/cache'
-      - '/your/media/library:/media:ro' # Replace with your media path
+      - '/home/ubuntu/media:/media:ro' # Replace with your media path
     restart: unless-stopped
