@@ -150,7 +150,7 @@ and more.
 
 ####  Permissions
 
-Yes, when using Ubuntu (or any other Linux-based operating system) to host services like Jellyfin, 
+When using Ubuntu (or any other Linux-based operating system) to host services like Jellyfin, 
 it's essential to ensure that the service user running the application has the necessary permissions 
 to access and read your storage locations, especially if those storage locations contain your media files.
 
