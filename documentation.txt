@@ -62,6 +62,29 @@ RetroPie
    docker-compose -f docker-compose-retropie.yml up -d
    ```
 
+#####  Results
+
+When you execute `docker-compose -f docker-compose-jellyfin.yml up -d` using the provided `docker-compose-jellyfin.yml` file, you are telling Docker Compose to start the Jellyfin service in detached mode. Here's what you can expect:
+
+1. **Starting the Jellyfin Container:** Docker Compose will pull the Jellyfin Docker image (if not already downloaded) and create a new container based on the image. This container will be started in the background, detached from your terminal.
+
+2. **Mapping Ports:** The `-p` or `--publish` option in the `docker-compose-jellyfin.yml` file maps port `8096` on your Raspberry Pi to port `8096` in the Jellyfin container. This means you can access the Jellyfin web interface on port `8096` of your Raspberry Pi.
+
+3. **Accessing the Jellyfin Web GUI:** To access the Jellyfin graphical user interface (GUI), open a web browser on a device connected to the same network as your Raspberry Pi. In the browser's address bar, enter:
+
+   ```
+   http://<your-raspberry-pi-ip>:8096
+   ```
+
+   Replace `<your-raspberry-pi-ip>` with the actual IP address of your Raspberry Pi.
+
+   You should now see the Jellyfin login page. If this is your first time setting up Jellyfin, you'll need to go through the initial setup process to create an administrator account, add media libraries, and configure other settings.
+
+4. **Logging into Jellyfin:** After the initial setup, you can log in with the administrator account you created. Once logged in, you can access and manage your media libraries and stream content to supported devices.
+
+Remember that if you have any firewall or network configurations in place, you may need to allow traffic on port `8096` for the device running Jellyfin. Additionally, make sure your Raspberry Pi is reachable from the device you are using to access the Jellyfin GUI.
+
+
 #### Checking Running Containers
 
 1. **Check Running Containers:**
