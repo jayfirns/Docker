@@ -147,5 +147,48 @@ and more.
 
    Replace `retropie` with the actual container name.
 
+
+####  Permissions
+
+Yes, when using Ubuntu (or any other Linux-based operating system) to host services like Jellyfin, 
+it's essential to ensure that the service user running the application has the necessary permissions 
+to access and read your storage locations, especially if those storage locations contain your media files.
+
+Here are some important considerations:
+
+1. **Service User Permissions:** The Jellyfin service typically runs under a specific user account, 
+often created during the installation process. This user needs read access to the directories where 
+your media files are stored.
+
+2. **File and Directory Permissions:** Ensure that the media files and directories you want to access with 
+Jellyfin have appropriate permissions. You can use the `chmod` command to modify permissions if needed. For example:
+
+   ```bash
+   # Give read permission to a directory and its contents
+   chmod -R +r /path/to/media-directory
+   ```
+
+3. **Ownership:** Check the ownership of the media files and directories. They should be owned by the user 
+running Jellyfin or have appropriate group ownership. You can use the `chown` command to change ownership if necessary:
+
+   ```bash
+   # Change ownership to the Jellyfin user
+   chown -R jellyfin-user:jellyfin-group /path/to/media-directory
+   ```
+
+4. **SELinux or AppArmor:** If your Ubuntu system has SELinux or AppArmor enabled, you may need to configure 
+the security policies to allow Jellyfin access to your media directories. Consult the documentation 
+for these security modules for guidance.
+
+5. **Restart Jellyfin:** After making changes to permissions or ownership, restart the Jellyfin service to apply the changes:
+
+   ```bash
+   sudo systemctl restart jellyfin
+   ```
+
+By ensuring that the Jellyfin service user has appropriate permissions and access to your media files and 
+directories, you can avoid permission-related issues and ensure that Jellyfin can successfully 
+index and stream your media content.
+
 ### Notes
 
