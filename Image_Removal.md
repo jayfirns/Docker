@@ -3,6 +3,8 @@ tags:
   - docker
   - image
   - ChatGPT
+created: 2024-04-20T14:33
+updated: 2024-04-20T14:33
 ---
 
 How do I get rid of security_test and security_test2? 

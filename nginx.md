@@ -3,6 +3,8 @@ tags:
   - docker
   - nginx
   - youtube
+created: 2024-04-20T14:33
+updated: 2024-04-20T14:33
 ---
 #youtube[Techno Tim Docker Tutorial](https://www.youtube.com/watch?v=SnSH8Ht3MIc)
 
