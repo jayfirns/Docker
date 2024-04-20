@@ -1,13 +1,23 @@
 ---
 created: 2024-04-20T15:44
-updated: 2024-04-20T15:44
+updated: 2024-04-20T15:49
 tags:
   - docker
 ---
 
 
 
-# This is the Read me file.  We'll enhance this locally...
+# Docker ReadMe
 
+We've taken note of our [[Active_Containers]]
+We've scripted some workflows but they're not great...
+- [[Validate_Images]]
+- [[Inspect_Docker]]
+- [[Manage_Docker]]
+- [[Docker_Management]]
 
-So here are some changes, but we're just getting started...
+##### 🚀 What are our goals??
+- [ ] I want to build a Wordpress site
+- [ ] Investigate Kasm workspace
+- [ ] NextCloud
+- [ ] Home Assistant
