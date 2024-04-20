@@ -1,3 +1,10 @@
+---
+created: 2024-04-20T15:39
+updated: 2024-04-20T15:40
+---
+[[Active_Containers]]
+[[Manage_Docker]] result
+
 ------------------------------------------------------
 Validating image: security_upgrade:latest
 Error: Error: No such object: <none>

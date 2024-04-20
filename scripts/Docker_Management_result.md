@@ -1,3 +1,11 @@
+---
+created: 2024-04-20T15:39
+updated: 2024-04-20T15:40
+---
+[[Active_Containers]]
+
+[[Docker_Management]] result
+
 ------------------------------------------------------
 Validating image: kalilinux/kali-rolling:latest@sha256:669e4b6421e0c46605954f323644dfd6b6b21de28f7d8ff4c5d5952ae1c748f6
 Image kalilinux/kali-rolling:latest@sha256:669e4b6421e0c46605954f323644dfd6b6b21de28f7d8ff4c5d5952ae1c748f6 is valid.

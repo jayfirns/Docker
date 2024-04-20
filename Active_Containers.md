@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T09:30
-updated: 2024-04-20T15:27
+updated: 2024-04-20T15:42
 ---
 
 So far what we've come up with to identify our active containers:
@@ -9,6 +9,13 @@ So far what we've come up with to identify our active containers:
 - [[Inspect_Docker]]
 - [[Manage_Docker]]
 - [[Docker_Management]]
+
+Here are our results:
+
+- [[Docker_Management_result]]
+- [[Inspect_Docker_result]]
+- [[Manage_Docker_result]]
+- [[Validate_Docker_Result]]
 
 
 
