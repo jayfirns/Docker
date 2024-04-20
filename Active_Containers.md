@@ -1,6 +1,8 @@
 ---
 created: 2024-04-20T09:30
-updated: 2024-04-20T15:47
+updated: 2024-04-20T16:49
+tags:
+  - docker
 ---
 
 Return to the [[HomeLab/Docker/README|README]]

@@ -1,12 +1,9 @@
 ---
 created: 2024-04-20T15:44
-updated: 2024-04-20T15:56
+updated: 2024-04-20T16:50
 tags:
   - docker
 ---
-
-
-
 # Docker ReadMe
 
 We've taken note of our [[Active_Containers]]
@@ -21,7 +18,7 @@ We've scripted some workflows but they're not great...
 	- [script location](https://github.com/jayfirns/Docker/blob/main/scripts/Docker_Management.sh)
 
 ##### 🚀 What are our goals??
-- [ ] Wordpress
+- [ ] [[Wordpress]]
 - [ ] Kasm Workspace
 - [ ] NextCloud
 - [ ] Home Assistant
