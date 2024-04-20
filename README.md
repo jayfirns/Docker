@@ -12,13 +12,13 @@ tags:
 We've taken note of our [[Active_Containers]]
 We've scripted some workflows but they're not great...
 - [[Validate_Images]]
-	- insert url
+	- [script location](https://github.com/jayfirns/Docker/blob/main/scripts/Validate_Docker_Images.sh)
 - [[Inspect_Docker]]
-	- insert url
+	- [script location](https://github.com/jayfirns/Docker/blob/main/scripts/Inspect_Docker.sh)
 - [[Manage_Docker]]
-	- insert url
+	- [script location](https://github.com/jayfirns/Docker/blob/main/scripts/Manage_Docker.sh)
 - [[Docker_Management]]
-	- insert url
+	- [script location](https://github.com/jayfirns/Docker/blob/main/scripts/Docker_Management.sh)
 
 ##### 🚀 What are our goals??
 - [ ] Wordpress
