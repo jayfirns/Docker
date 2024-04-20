@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T15:44
-updated: 2024-04-20T15:49
+updated: 2024-04-20T15:50
 tags:
   - docker
 ---
@@ -17,7 +17,7 @@ We've scripted some workflows but they're not great...
 - [[Docker_Management]]
 
 ##### 🚀 What are our goals??
-- [ ] I want to build a Wordpress site
-- [ ] Investigate Kasm workspace
+- [ ] Wordpress
+- [ ] Kasm Workspace
 - [ ] NextCloud
 - [ ] Home Assistant
