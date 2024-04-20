@@ -1,0 +1,71 @@
+To remove a Docker container and all its dependencies or references, including associated volumes, networks, and images, you can use the following Docker commands:
+
+1. **Stop the Container:** Before removing a container, it's a good practice to stop it if it's currently running. You can use the `docker stop` command followed by the container name or ID.
+
+   ```bash
+   docker stop <container_name_or_id>
+   ```
+
+   For example, to stop the Jellyfin container, you might run:
+
+   ```bash
+   docker stop jellyfin
+   ```
+
+2. **Remove the Container:** After stopping the container, you can remove it using the `docker rm` command.
+
+   ```bash
+   docker rm <container_name_or_id>
+   ```
+
+   For example:
+
+   ```bash
+   docker rm jellyfin
+   ```
+
+3. **Remove Associated Volumes:** If the container was using Docker volumes for data storage, you can remove the associated volumes using the `docker volume rm` command. First, list the volumes associated with the container:
+
+   ```bash
+   docker volume ls
+   ```
+
+   Then, remove the volumes you want to delete:
+
+   ```bash
+   docker volume rm <volume_name_or_id>
+   ```
+
+   Replace `<volume_name_or_id>` with the actual name or ID of the volume.
+
+4. **Remove Unused Images:** If you no longer need the Docker image used to create the container, you can remove it using the `docker rmi` command.
+
+   First, list Docker images on your system:
+
+   ```bash
+   docker images
+   ```
+
+   Then, remove the image you want to delete by specifying its name or ID:
+
+   ```bash
+   docker rmi <image_name_or_id>
+   ```
+
+5. **Remove Unused Networks (Optional):** If the container created a custom Docker network that you no longer need, you can remove it using the `docker network rm` command.
+
+   List Docker networks:
+
+   ```bash
+   docker network ls
+   ```
+
+   Remove the network you want to delete:
+
+   ```bash
+   docker network rm <network_name_or_id>
+   ```
+
+These commands will help you remove the container, its associated volumes, and the image used to create it. Be cautious when removing containers and associated data, as it is irreversible. Ensure that you only remove what you no longer need.
+
+Documenting these steps in your documentation will help users understand how to manage Docker containers effectively.
