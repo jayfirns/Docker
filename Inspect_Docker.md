@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T15:17
-updated: 2024-04-20T15:27
+updated: 2024-04-20T15:58
 tags:
   - docker
   - image
@@ -9,6 +9,8 @@ tags:
 [[Active_Containers]]
 [[Manage_Docker]]
 [[Docker_Management]]
+
+Here is the [[Inspect_Docker_result]]
 
 ## Docker Image Digest Summary Script
 

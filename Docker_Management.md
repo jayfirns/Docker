@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T15:24
-updated: 2024-04-20T15:26
+updated: 2024-04-20T15:59
 ---
 
 
@@ -9,6 +9,8 @@ updated: 2024-04-20T15:26
 [[Inspect_Docker]]
 [[Manage_Docker]]
 
+
+Here is the [[Docker_Management_result]]
 # Docker_Management
 
 ## Function: extract_container_info

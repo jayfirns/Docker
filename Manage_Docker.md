@@ -1,12 +1,15 @@
 ---
 created: 2024-04-20T15:19
-updated: 2024-04-20T15:26
+updated: 2024-04-20T15:58
 ---
 
 [[script_list]]
 [[Active_Containers]]
 [[Inspect_Docker]]
 [[Docker_Management]]
+
+
+Here is the [[Manage_Docker_result]]
 # Manage_Docker
 
 ## Function: extract_container_info()

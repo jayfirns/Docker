@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T09:39
-updated: 2024-04-20T15:24
+updated: 2024-04-20T15:58
 tags:
   - docker
 ---
@@ -9,6 +9,8 @@ tags:
 [[Inspect_Docker]]
 [[Manage_Docker]]
 [[Docker_Management]]
+
+Here is the [[Validate_Docker_Result]]
 
 This Bash script retrieves a list of all Docker images along with their digests, iterates through each image digest, and validates the image metadata. Here's a summary of its functionality:
 
