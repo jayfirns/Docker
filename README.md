@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T15:44
-updated: 2024-04-20T16:50
+updated: 2024-04-20T18:10
 tags:
   - docker
 ---
@@ -18,7 +18,8 @@ We've scripted some workflows but they're not great...
 	- [script location](https://github.com/jayfirns/Docker/blob/main/scripts/Docker_Management.sh)
 
 ##### 🚀 What are our goals??
-- [ ] [[Wordpress]]
+- [x] [[Wordpress]]
+- [x] my sql
 - [ ] Kasm Workspace
 - [ ] NextCloud
 - [ ] Home Assistant

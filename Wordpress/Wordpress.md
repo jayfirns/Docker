@@ -1,12 +1,14 @@
 ---
 created: 2024-04-20T16:06
-updated: 2024-04-20T17:21
+updated: 2024-04-20T18:02
 tags:
   - docker
 ---
 
 
 This is the [docker hub](https://hub.docker.com/r/arm64v8/wordpress) for #wordpress and here is the [wiki](https://en.wikipedia.org/wiki/WordPress)
+
+Of course we could just use the Wordpress [[Compose file]]
 
 #ChatGPT 
 

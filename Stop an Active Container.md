@@ -1,12 +1,10 @@
 ---
 created: 2024-04-20T16:48
-updated: 2024-04-20T16:49
+updated: 2024-04-20T18:05
 tags:
   - docker
 ---
 # Stop an Active Container
-
-To stop and remove the container that's running on port 80 from two weeks ago, you can use the following Docker commands:
 
 1. **Stop the container**: First, you need to stop the container. You can do this by using the `docker stop` command followed by the container ID or name. In your case, the container ID is `468a1d4b1e24`, and the name is `jolly_jones`.
 
