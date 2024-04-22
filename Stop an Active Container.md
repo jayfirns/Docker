@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T16:48
-updated: 2024-04-20T18:05
+updated: 2024-04-20T23:49
 tags:
   - docker
 ---
@@ -30,3 +30,9 @@ docker rm 468a1d4b1e24
 ```
 
 After running these commands, the container should be stopped and removed from your system. You can then verify that it's no longer running by running `docker ps` again. Once the old container is removed, you should be able to access your WordPress site running on the new container without any conflicts.
+
+
+```bash
+docker system prune --all
+```
+

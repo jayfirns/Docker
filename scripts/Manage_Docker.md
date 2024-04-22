@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T15:19
-updated: 2024-04-20T15:58
+updated: 2024-04-21T13:10
 ---
 
 [[script_list]]
@@ -10,6 +10,9 @@ updated: 2024-04-20T15:58
 
 
 Here is the [[Manage_Docker_result]]
+
+This script doesn't seem to work that great, it provides attempts to combine Validate and Inspect but the result is incomplete...
+
 # Manage_Docker
 
 ## Function: extract_container_info()

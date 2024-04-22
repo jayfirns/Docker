@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T15:44
-updated: 2024-04-20T18:10
+updated: 2024-04-20T22:56
 tags:
   - docker
 ---
@@ -20,6 +20,6 @@ We've scripted some workflows but they're not great...
 ##### 🚀 What are our goals??
 - [x] [[Wordpress]]
 - [x] my sql
-- [ ] Kasm Workspace
+- [x] Kasm Workspace
 - [ ] NextCloud
 - [ ] Home Assistant

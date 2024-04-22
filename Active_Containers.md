@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T09:30
-updated: 2024-04-20T16:49
+updated: 2024-04-21T13:14
 tags:
   - docker
 ---
@@ -19,7 +19,7 @@ Here are our results:
 - [[Docker_Management_result]]
 - [[Inspect_Docker_result]]
 - [[Manage_Docker_result]]
-- [[Validate_Docker_Result]]
+- [[Validate_Images_Result]]
 
 
 

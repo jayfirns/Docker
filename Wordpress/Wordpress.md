@@ -1,9 +1,13 @@
 ---
 created: 2024-04-20T16:06
-updated: 2024-04-20T18:02
+updated: 2024-04-22T09:47
 tags:
   - docker
 ---
+Here it is: [Johns_Home_Lab](http://10.0.0.101:8080/wp-admin/index.php)
+### Credentials
+User Name: john
+Password: lzlDDcrEKa9V2Ib2TB
 
 
 This is the [docker hub](https://hub.docker.com/r/arm64v8/wordpress) for #wordpress and here is the [wiki](https://en.wikipedia.org/wiki/WordPress)

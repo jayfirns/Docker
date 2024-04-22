@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T15:24
-updated: 2024-04-20T15:59
+updated: 2024-04-21T13:11
 ---
 
 
@@ -9,6 +9,9 @@ updated: 2024-04-20T15:59
 [[Inspect_Docker]]
 [[Manage_Docker]]
 
+This script seems to provide a lot of detailed information, though I don't recall getting the sense #ChatGPT really understood the intent...
+
+Let's keep this along with Inspect and Validate to develop from.
 
 Here is the [[Docker_Management_result]]
 # Docker_Management
