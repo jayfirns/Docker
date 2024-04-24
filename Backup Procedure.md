@@ -1,6 +1,6 @@
 ---
 created: 2024-04-20T18:25
-updated: 2024-04-20T18:27
+updated: 2024-04-24T01:16
 ---
 
 
@@ -12,8 +12,11 @@ Taking snapshots or backups of your Docker environment is crucial for ensuring y
 
 You can use `docker commit` to create a snapshot of your containers as images. This method is simple but doesn't capture the volumes' data.
 
-1. **Stop Your Containers**: Before taking a snapshot, stop your running containers using `docker-compose stop`.
-    
+1. **Stop Your Containers**: Before taking a snapshot, stop your running containers using:
+```bash
+docker-compose stop
+```
+
 2. **Commit Containers**: Use the `docker commit` command to create images from your containers. For example:
 
 ```bash
@@ -44,7 +47,7 @@ docker-compose stop
 
 docker-compose down 
 
-cp docker-compose.yaml docker-compose.backup.yaml 
+cp docker-compose.yaml docker-compose.backup2.yaml 
 
 docker-compose up -d
 

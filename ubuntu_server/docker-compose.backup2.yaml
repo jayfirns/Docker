@@ -1,0 +1,7 @@
+# iteration: 0.0.1
+
+version: '3.8'
+services:
+  ubuntu-server:
+    build: .
+    # You can add ports, volumes, environment variables, etc., as needed
